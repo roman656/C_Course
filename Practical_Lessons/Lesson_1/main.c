@@ -27,7 +27,7 @@ int main()
     while ((scanf("%d", &number) != 1) || (number <= 0) || (getchar() != '\n'))
     {
         while (getchar() != '\n');
-        fprintf(stderr, "Wrong input!\nEnter a positive number: ");
+        fprintf(stderr, "Wrong input!\nEnter a natural number: ");
     }
 
     printf("Number was: %d\nNew number is: ", number);
